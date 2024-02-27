@@ -17,7 +17,7 @@ public class OperadorTernario {
 		Scanner entrada = new Scanner(System.in);
 		
 		
-		//Entrada de Dados, sempre prestar atenção  com o tipo dos dados, para não haver erro , caso o resultado tiver  um numero fracionado. 
+		//Entrada de Dados, sempre prestar atenção  com o tipo de dados, para não ter erro , caso o resultado tiver  um numero fracionado. 
 		
 		System.out.println("Digite o nome do aluno : ");
 		String aluno = entrada.next();
@@ -40,10 +40,10 @@ public class OperadorTernario {
 		
                if(faltas >25) {
 			
-			System.out.println("O aluno "+aluno.toUpperCase()+ " Foi reprovado por faltas");// Usando uma estrutura de controle, caso ultrapasse as falta, o codigo ja termina aki ! 
+			System.out.println("O aluno "+aluno.toUpperCase()+ " Foi reprovado por faltas");// Usando uma estrutura de controle, caso ultrapasse as faltas, o codigo termina aqui ! 
 		
 	
-		}else if(resultado >= media ){// Senão continua aki !
+		}else if(resultado >= media ){// Se não continua aqui !
 			
 			
 			System.out.println("O aluno "+ aluno.toUpperCase()+" foi Aprovado ");// Usando touppercase a impressao do nome sera em maiusculo
