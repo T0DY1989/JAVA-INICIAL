@@ -25,7 +25,7 @@ public class OperadorTernario {
 		System.out.println("Quantos % de falta o aluno teve : ");
 		double faltas = entrada.nextDouble();
 		
-        System.out.println("Digite a primeira  nota : ");
+                System.out.println("Digite a primeira  nota : ");
 		double nota1 = entrada.nextDouble();
 		
 		System.out.println("Digite a segunda nota : ");
