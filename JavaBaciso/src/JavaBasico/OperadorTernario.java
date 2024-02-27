@@ -38,7 +38,7 @@ public class OperadorTernario {
 		
 		
 		
-        if(faltas >25) {
+               if(faltas >25) {
 			
 			System.out.println("O aluno "+aluno.toUpperCase()+ " Foi reprovado por faltas");// Usando uma estrutura de controle, caso ultrapasse as falta, o codigo ja termina aki ! 
 		
